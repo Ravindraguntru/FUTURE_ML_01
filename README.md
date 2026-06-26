@@ -1,55 +1,59 @@
-# Sales & Demand Forecasting for Businesses
+# 📊 Sales Forecasting Project (Machine Learning)
 
-## Project Overview
-This project predicts future sales using historical sales data with Machine Learning. The data is cleaned, analyzed, and used to train a Linear Regression model for forecasting future sales.
+## 📌 Project Overview
+This project focuses on forecasting sales using historical store sales data. The goal is to analyze past trends and build a predictive model to estimate future sales.
 
-## Objective
-To forecast future business sales and provide business-friendly insights for better decision making.
+---
 
-## Dataset
-- stores_sales_forecasting.csv
+## 📂 Dataset
+- Source: Store Sales Forecasting dataset
+- Contains historical sales data of different stores/products
+- Features include date, store id, item id, sales, etc.
 
-## Tools & Technologies
-- Python
+---
+
+## ⚙️ Technologies Used
+- Python 🐍
 - Pandas
 - NumPy
-- Matplotlib
-- Scikit-learn
+- Matplotlib / Seaborn
 - Jupyter Notebook
 
-## Project Workflow
-- Data Cleaning
-- Time-based Feature Engineering
-- Exploratory Data Analysis
-- Sales Trend Visualization
-- Train-Test Split
-- Linear Regression Model
-- Model Evaluation
-- Future Sales Forecast (30 Days)
-- Business Insights
+---
 
-## Model Evaluation
-The model is evaluated using:
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R² Score
+## 📊 Workflow
+1. Data Collection
+2. Data Cleaning
+3. Exploratory Data Analysis (EDA)
+4. Feature Engineering
+5. Model Building
+6. Prediction
 
-## Output
-- Daily Sales Trend Graph
-- Actual vs Predicted Sales Graph
-- Future 30-Day Sales Forecast Graph
-- sales_forecast.csv
+---
 
-## Business Insights
-- Helps businesses estimate future sales.
-- Supports inventory planning.
-- Improves demand forecasting.
-- Assists in business decision making.
+## 🤖 Model Used
+- Time Series / Regression approach (based on dataset handling)
+- Model trained on historical sales data
+- Used for predicting future sales trends
 
-## Project Structure
+---
 
-FUTURE_ML_01/
-│── data/
-│── notebook/
-│── output/
-│── README.md
+## 📁 Project Structure
+
+---
+
+## 📈 Output
+- Forecasted sales values generated successfully
+- Results stored in `output/` folder
+
+---
+
+## 🚀 Future Improvements
+- Deploy model using Streamlit
+- Improve accuracy using advanced ML models
+- Automate data pipeline
+
+---
+
+## 👨‍💻 Author
+Ravindra Guntru
